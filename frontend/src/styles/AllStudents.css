@@ -1,0 +1,59 @@
+/* Wrapper to center the table */
+.table-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 40px 20px;
+  min-height: 100vh;
+  background-color: #f4f6f9;
+}
+
+/* Title styling */
+.table-wrapper h2 {
+  font-size: 32px;
+  text-align: center;
+  color: #4b0082; /* Rich Indigo */
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(90deg, #4b0082, #8a2be2);
+  -webkit-background-clip: text;
+  background-clip: text;  
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Table styling */
+.students-table {
+  width: 95%;
+  max-width: 1000px;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.students-table th,
+.students-table td {
+  padding: 16px 20px;
+  text-align: left;
+  font-size: 15px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.students-table thead {
+  background-color: #ac0885;
+  color: white;
+}
+
+.students-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.students-table tbody tr:hover {
+  background-color: #e6f0ff;
+  transition: background 0.2s ease;
+  cursor: default;
+}
