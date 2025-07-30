@@ -25,7 +25,9 @@ const LoginForm = ({ onLogin }) => {
   };
 
   return (
+  <>
     <div className="form-container">
+       <h1 className="main-title">School Attendance Manager</h1>
       <form className="form" onSubmit={handleSubmit}>
         <h2>Admin Login</h2>
         <input
@@ -52,6 +54,7 @@ const LoginForm = ({ onLogin }) => {
         </p>
       </form>
     </div>
+    </>
   );
 };
 
