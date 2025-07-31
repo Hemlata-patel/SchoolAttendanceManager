@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // ✅ correct base
+  baseURL: 'https://schoolattendancemanager.onrender.com/api', // ✅ correct base
   withCredentials: true                 // ✅ for sending cookies
 });
 
