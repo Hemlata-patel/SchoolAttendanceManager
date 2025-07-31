@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import api from '../api/api';
-import '../styles/attendanceForm.css';
+import '../styles/AttendanceForm.css';
 
 const AttendanceForm = () => {
   const [students, setStudents] = useState([]);
