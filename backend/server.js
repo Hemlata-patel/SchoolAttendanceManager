@@ -10,7 +10,7 @@ import studentsRoutes from './routes/studentsRoutes.js';
 dotenv.config();
 const app = express();
 app.use(cors({
-  origin: ['http://localhost:5173','https://schoolattendancemanager-frontend.onrender.com'],  // or your React frontend URL
+  origin: ['https://schoolattendancemanager-frontend.onrender.com'],  // or your React frontend URL
   credentials: true
 }));
 app.use(express.json());
